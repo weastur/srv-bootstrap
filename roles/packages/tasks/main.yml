@@ -15,48 +15,62 @@
   apt:
     name:
       - apt-transport-https
-      - ca-certificates
-      - vim
-      - tmux
-      - htop
-      - software-properties-common
-      - curl
-      - gnupg-agent
-      - tcpdump
-      - traceroute
-      - dnsutils
-      - net-tools
-      - gdb
       - atop
+      - bash-completion
+      - bind9-host
+      - binutils
+      - bridge-utils
+      - ca-certificates
+      - cgroup-bin
+      - command-not-found
+      - cron
+      - curl
+      - dnsutils
+      - gdb
+      - gnupg-agent
+      - hping3
+      - htop
       - iftop
       - iotop
-      - smartmontools
-      - strace
-      - mc
-      - python
-      - python-dev
-      - python-pip
-      - python-virtualenv
-      - python3
-      - python3-dev
-      - python3-pip
-      - python3-virtualenv
-      - openjdk-11-jdk
-      - qemu
-      - qemu-kvm
-      - libvirt-daemon-system
-      - libvirt-clients
-      - bridge-utils
-      - binutils
-      - nmap
-      - cgroup-bin
-      - vlan
+      - iperf3
+      - iputils-arping
+      - iputils-ping
+      - iputils-tracepath
       - jq
       - lftp
       - libguestfs-tools
+      - libvirt-clients
+      - libvirt-daemon-system
+      - ltrace
+      - mc
+      - mtr-tiny
+      - net-tools
+      - nload
+      - nmap
+      - openjdk-11-jre
+      - pigz
+      - pv
+      - python3
       - python3-libvirt
-      - virtinst
+      - python3-pip
+      - python3-virtualenv
+      - qemu
+      - qemu-kvm
+      - rsync
       - ruby
+      - screen
+      - smartmontools
+      - software-properties-common
+      - strace
+      - sysstat
+      - tcpdump
+      - tmux
+      - traceroute
+      - unzip
+      - vim
+      - virtinst
+      - vlan
+      - whois
     state: present
     update_cache: yes
 
